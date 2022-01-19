@@ -78,20 +78,20 @@ async def get_start_func(message, strings, edit=False):
     buttons.add(
         InlineKeyboardButton(strings["btn_lang"], callback_data="lang_btn"),
         InlineKeyboardButton(
-            strings["btn_source"], url="https://github.com/TeamOfShadow/"
+            strings["btn_source"], url="https://github.com/lintobinoy007"
         ),
     )
     buttons.add(
         InlineKeyboardButton(
-            strings["btn_channel"], url="https://t.me/ShadowBotUpdates"
+            strings["btn_channel"], url="https://t.me/everything_facts"
         ),
         InlineKeyboardButton(
-            strings["btn_group"], url="https://t.me/ShadowSupport_Official"
+            strings["btn_group"], url="https://t.me/everything_chitchat"
         ),
     )
     buttons.add(
         InlineKeyboardButton(
-            "➕ Add Shadow to your group ➕",
+            "➕ Add Me to your group ➕",
             url=f"https://telegram.me/Mr_Shadow_Robot?startgroup=true",
         )
     )
