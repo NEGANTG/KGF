@@ -18,17 +18,17 @@
 __mod_name__ = "Music Player"
 
 __help__ = """
-<b>》==(: SHADOW MUSIC :)==《</b>
+<b>》==(: KGF VIBER👼 :)==《</b>
             
 <i>Assistant name »</i> <b>@Shadow_Helper</b>
 
 <b>• Groups Voice Chat Music Play 🎧</b>
   
 ==》<b>♾Settings up♾</b>
-╠ Make <b>@Mr_Shadow_Robot</b> admin
+╠ Make <b>@Tridentgroupsbot</b> admin
 ╠ Start a voice chat
 ╠ Try /play <code>[song name]</code> for the first time by an admin
-╚ If userbot joined enjoy music, If not add <b>@Shadow_Helper</b> to your group and retry
+╚ If userbot joined enjoy music, If not add <b>@kgf_helper</b> to your group and retry
 
 ==》<b>Commands⚒</b>
 🎧 [Basic Commands]
