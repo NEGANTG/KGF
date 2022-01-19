@@ -78,7 +78,7 @@ async def get_start_func(message, strings, edit=False):
     buttons.add(
         InlineKeyboardButton(strings["btn_lang"], callback_data="lang_btn"),
         InlineKeyboardButton(
-            strings["btn_source"], url="you fool this is a bot made for a big fed so you can't have the source code 😁"
+            strings["btn_source"], url="https://github.com/TeamOfShadow/Shadow"
         ),
     )
     buttons.add(
