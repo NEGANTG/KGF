@@ -187,7 +187,7 @@ STRINGS:
 
   pm_menu:
     start_hi_group: '<b>Hey there, kgf bot is alive :)</b>'
-    start_hi: "Hey there! My name is <b>KGF </b>\nI can help manage your groups with useful features, feel free to add me to your groups!"
+    start_hi: "Hey there! My name is <b>KGF</b>\nI can help manage your groups with useful features, feel free to add me to your groups!"
     btn_source: "📜 Source code"
     btn_help: "❔ Help"
     btn_lang: "🇺🇸 Language"
@@ -197,7 +197,7 @@ STRINGS:
     back: "« Bᴀᴄᴋ"
 
     # /help
-    help_header: "Hi Boss! I'm <b>Shadow</b>. An anime themed super powerful group management bot with many handy tools. So why are you waiting. Let me to assist you"
+    help_header: "Hi Boss🙋‍♂️! I'm <b>KGF😌</b>. An big federation and community called KGF fed Based super powerful group management bot with many handy tools. So why are you waiting. Let me to assist you"
     click_btn: Click here
 
   disable:
