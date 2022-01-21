@@ -284,8 +284,8 @@ async def __user_info__(message, user_id, strings):
     global skemmers
     if not user_id in skemmers:
         return strings["sudo_crown"]
-    
- 
+
+
 _mod_name_ = "Devs"
 
 _help_ = """

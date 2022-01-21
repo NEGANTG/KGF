@@ -1,18 +1,29 @@
 import asyncio
 
-from pyrogram.errors import FloodWait, UserIsBlocked, PeerIdInvalid, InputUserDeactivated
-from shadow import importpbot, filters
+from pyrogram.errors import (
+    FloodWait,
+    InputUserDeactivated,
+    PeerIdInvalid,
+    UserIsBlocked,
+)
 from pyrogram.types import Message
-from shadow.modules.sql.broadcast_db import add_to_broadcastbase, full_broadcastbase, present_in_broadcastbase, 
+from shadow import filters, importpbot
+from shadow.modules.sql.broadcast_db import (
+    add_to_broadcastbase,
+    full_broadcastbase,
+    present_in_broadcastbase,
+)
+
 
 @pbot.on_message(group=1)
-async def add_to_db(bot:pbot,message:Message):
+async def add_to_db(bot: pbot, message: Message):
     chat_id = message.chat.id
     if not present_in_broadcastbase(chat_id):
         add_to_broadcastbase(chat_id)
 
-@pbot.on_message(filters.command('broadcast') & filters.badmins)
-async def pyro_broadcast(bot:pbot,message:Message):
+
+@pbot.on_message(filters.command("broadcast") & filters.badmins)
+async def pyro_broadcast(bot: pbot, message: Message):
     reply_message = message.reply_to_message
     if reply_message:
         chats = full_broadcastbase()
@@ -40,12 +51,14 @@ async def pyro_broadcast(bot:pbot,message:Message):
                     failed = len(chats) - success
                     await message.reply("Broadcast send Successfully")
                     await message.reply(
-                        f"<b>Statistics :</b>\n\n\n👥Total users : {len(chats)}\n\n✅Successfull : {success}\n\n❌Failed : {failed}")
+                        f"<b>Statistics :</b>\n\n\n👥Total users : {len(chats)}\n\n✅Successfull : {success}\n\n❌Failed : {failed}"
+                    )
                 except FloodWait as e:
                     await asyncio.sleep(e.x)
                     await message.reply("Broadcast send Successfully")
                     await message.reply(
-                        f"<b>Statistics :</b>\n\n\n👥Total users : {len(chats)}\n\n✅Successfull : {success}\n\n❌Failed : {failed}")
+                        f"<b>Statistics :</b>\n\n\n👥Total users : {len(chats)}\n\n✅Successfull : {success}\n\n❌Failed : {failed}"
+                    )
             else:
                 try:
                     await reply_message.copy(int(chat.chat_id))
@@ -68,9 +81,11 @@ async def pyro_broadcast(bot:pbot,message:Message):
                     failed = len(chats) - success
                     await message.reply("Broadcast send Successfully")
                     await message.reply(
-                        f"<b>Statistics :</b>\n\n\n👥Total users : {len(chats)}\n\n✅Successfull : {success}\n\n❌Failed : {failed}")
+                        f"<b>Statistics :</b>\n\n\n👥Total users : {len(chats)}\n\n✅Successfull : {success}\n\n❌Failed : {failed}"
+                    )
                 except FloodWait as e:
                     await asyncio.sleep(e.x)
                     await message.reply("Broadcast send Successfully")
                     await message.reply(
-                        f"<b>Statistics :</b>\n\n\n👥Total users : {len(chats)}\n\n✅Successfull : {success}\n\n❌Failed : {failed}")
+                        f"<b>Statistics :</b>\n\n\n👥Total users : {len(chats)}\n\n✅Successfull : {success}\n\n❌Failed : {failed}"
+                    )
