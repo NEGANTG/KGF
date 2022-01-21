@@ -1,18 +1,15 @@
 import asyncio
 
-from pyrogram.errors import (
+from telethon.errors import (
     FloodWait,
     InputUserDeactivated,
     PeerIdInvalid,
     UserIsBlocked,
-)
-from pyrogram.types import Message
-from shadow import filters, importpbot
-from shadow.modules.sql.broadcast_db import (
-    add_to_broadcastbase,
-    full_broadcastbase,
-    present_in_broadcastbase,
-)
+
+from Shadow import bot
+from Shadow.decorator import register
+from Shadow.services.mongo import db
+from Shadow.services.redis import redis
 
 
 @pbot.on_message(group=1)
