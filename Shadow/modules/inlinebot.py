@@ -71,7 +71,7 @@ __help__ = """
 <i>I'm more efficient when added as group admin. By the way these commands can be used by anyone in a group via inline.</i>
 
  <b>Syntax</b>
-<code>@Mr_Shadow_Robot [command] [query]</code>
+<code>@Tridentgroupsbot[command] [query]</code>
 
 <b> Commands Available</b>
 - alive: Check Bot's Stats.
