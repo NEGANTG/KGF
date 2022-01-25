@@ -66,7 +66,7 @@ class AioHttp:
 
 __mod_name__ = "Inline"
 __help__ = """
-<b>INLINE BOT SERVICE OF @MR_SHADOW_ROBOT</b> 
+<b>INLINE BOT SERVICE OF @Tridentgroupsbot</b> 
  
 <i>I'm more efficient when added as group admin. By the way these commands can be used by anyone in a group via inline.</i>
 
@@ -110,7 +110,7 @@ __help__ = """
 """
 
 INLINE = """
-==>> **INLINE BOT SERVICE OF @MR_SHADOW_ROBOT** <<==
+==>> **INLINE BOT SERVICE OF @Tridentgroupsbot** <<==
 
 __I'm more efficient when added as group admin. By the way these commands can be used by anyone in a group via inline__
 
