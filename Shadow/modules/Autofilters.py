@@ -18,7 +18,7 @@
 __mod_name__ = "Auto Filters"
 __help__ = """
 <b>AUTO FILTERS</b>
-Shadow Can filter content of a given channel automatically
+KGF Can filter content of a given channel automatically
 Currently support:
      - Videos
      - Media
@@ -26,7 +26,7 @@ Currently support:
      - Music
 
 <b>Setting up</b>
-1) Add <b>@Mr_Shadow_Robot</b> to your channel
+1) Add <b>@Tridentgroupsbot</b> to your channel
 2) Make bot admin with full permissions
 2) Go back to your group
 
