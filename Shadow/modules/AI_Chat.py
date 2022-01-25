@@ -112,20 +112,20 @@ async def hmm(_, message):
         lel = await edit_or_reply(message, "Processing...")
         lol = add_chat(int(message.chat.id))
         if not lol:
-            await lel.edit("Shadow AI Already Activated In This Chat")
+            await lel.edit("KGF AI Already Activated In This Chat")
             return
         await lel.edit(
-            f"Shadow AI Successfully Added For Users In The Chat {message.chat.id}"
+            f"KGF AI Successfully Added For Users In The Chat {message.chat.id}"
         )
 
     elif status == "OFF" or status == "off" or status == "Off":
         lel = await edit_or_reply(message, "Processing...")
         Escobar = remove_chat(int(message.chat.id))
         if not Escobar:
-            await lel.edit("Shadow AI Was Not Activated In This Chat")
+            await lel.edit("KGF AI Was Not Activated In This Chat")
             return
         await lel.edit(
-            f"Shadow AI Successfully Deactivated For Users In The Chat {message.chat.id}"
+            f"KGF AI Successfully Deactivated For Users In The Chat {message.chat.id}"
         )
 
     elif status == "EN" or status == "en" or status == "english" or status == "English":
@@ -383,7 +383,7 @@ async def deshadeeth(client, message):
 
 
 __help__ = """
-<b><i>SHADOW AI 3.0 IS THE ONLY AI SYSTEM WHICH CAN DETECT & REPLY UPTO 200 LANGUAGES</i></b>
+<b><i>KGF AI 3.0 IS THE ONLY AI SYSTEM WHICH CAN DETECT & REPLY UPTO 200 LANGUAGES</i></b>
 
 <b>Chatbot</b>
  - /chatbot <code>[ON/OFF]</code>: Enable the AI Chat mode (EXCLUSIVE)
