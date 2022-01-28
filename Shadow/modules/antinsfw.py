@@ -1,10 +1,10 @@
 from os import remove
 
-from EmikoRobot import BOT_USERNAME as bn
-from EmikoRobot import arq, pbot
-from EmikoRobot.ex_plugins.dbfunctions import is_nsfw_on, nsfw_off, nsfw_on
-from EmikoRobot.utils.errors import capture_err
-from EmikoRobot.utils.permissions import adminsOnly
+from Shadow import BOT_USERNAME as bn
+from Shadow import arq, pbot
+from Shadow.services.mongo import mongodb import is_nsfw_on, nsfw_off, nsfw_on
+from Shadow.utils.errors import capture_err
+from Shadow.utils.permissions import adminsOnly
 from pyrogram import filters
 
 __mod_name__ = "Anti-NSFW​"
