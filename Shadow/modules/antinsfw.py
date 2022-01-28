@@ -1,10 +1,10 @@
 from os import remove
 
 from Shadow import BOT_USERNAME as bn
-from Shadow import arq, pbot
+from Shadow.services.pyrogram import pbot
 from Shadow.services.mongo import mongodb import is_nsfw_on, nsfw_off, nsfw_on
 from Shadow.utils.errors import capture_err
-from Shadow.utils.permissions import adminsOnly
+from Shadow.function.pluginhelpers import admins_only
 from pyrogram import filters
 
 __mod_name__ = "Anti-NSFW​"
